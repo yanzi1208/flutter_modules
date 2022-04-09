@@ -11,13 +11,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = 'MIT'
   s.author           = { 'yanzi1208' => '451222272@qq.com' }
-  s.source           = { :http => 'https://mobile-download.bitget.tools/iOSFramework/dev_python_pod.zip'}
+  s.source           = { :http => 'https://github.com/yanzi1208/flutter_modules/blob/main/flutter_modules.zip'}
 
 
   s.ios.deployment_target = '10.0'
   s.source_files = ''
-  spec_dir = Pathname(__FILE__).dirname
-  frameworks = `find #{spec_dir} -name "*.framework"`.to_s.split('\n').map{|v|v.gsub("#{spec_dir}/", '')}
-  s.vendored_frameworks = frameworks
+ # spec_dir = Pathname(__FILE__).dirname
+  #frameworks = `find #{spec_dir} -name "*.framework"`.to_s.split('\n').map{|v|v.gsub("#{spec_dir}/", '')}
+  s.vendored_frameworks = "*.xcframeworks"
 
 end
