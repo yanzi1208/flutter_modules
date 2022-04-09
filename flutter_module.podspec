@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://mobile-download.bitget.tools'
+  s.homepage         = 'https://github.com/yanzi1208'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = 'MIT'
   s.author           = { 'yanzi1208' => '451222272@qq.com' }
